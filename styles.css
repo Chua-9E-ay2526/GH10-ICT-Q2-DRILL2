@@ -1,0 +1,125 @@
+body {
+    font-family: "Lexend", sans-serif;
+    background: linear-gradient(
+        135deg,
+        #0000FF,
+        #00FF00,
+        #FF0000
+    );
+/* min-height:100vh; optional*/
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border :3px solid gray;
+    text-align: center;
+    margin :0px auto;
+    padding: 10px;
+    }
+
+div {
+    font-family: "Lexend", sans-serif;
+    background: linear-gradient(
+        135deg,
+        #00008B,
+        #681993,
+        #4B00D6
+    );
+/* min-height:100vh; optional*/
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border :3px solid gray;
+    text-align: center;
+    margin :0px auto;
+    padding: 10px;
+    }
+
+.container {
+    width:70%;
+    margin:auto;
+}
+
+.card {
+    border-radius:20px;
+    overflow:hidden;
+}
+
+h1, h2, h4, label {
+    font-family:"Lexend", sans-serif;
+        text-align: center;
+}
+
+.form-control {
+    border-width:3px;
+    border-radius:12px;
+}
+
+button {
+    border-radius:25px;
+    font-size:18px;
+}
+
+#result {
+    min-height:50px;
+    font-weight:bold;
+}
+
+.container {
+    font-family: Lexend;
+    padding: 10px;
+    background-color:aquamarine;
+    border:3px solid gray;
+    width:70%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+header {
+    font-family: Lexend;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+form, main{
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: aquamarine;
+    border :3px solid gray;
+    text-align: center;
+    margin :0px auto;
+    padding: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+
+/* Bootstrap HTML stylings
+ <div class="container py-5">
+    <div class="card cosmic-card shadow-lg">
+        <div class="card-header cosmic-header">
+            <h1></h1>
+            <p class="mb-0">Explore the cosmic collection</p>
+        </div>
+        <div class="card-body cosmic-body">
+            <form>
+                <div id="output"></div>
+            </form>
+        </div>
+        <div class="card-footer cosmic-footer">
+            <p class="mb-0"></p>
+        </div>
+    </div>
+</div>
+*/
